@@ -40,7 +40,12 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
+    'apps.usuario',
+    'apps.endereço',
 ]
+
+# Define o Model do User.
+AUTH_USER_MODEL = 'usuario.User'
 
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
