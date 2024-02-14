@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'apps.usuario',
     'apps.endereço',
+    'apps.cliente',
 ]
 
 # Define o Model do User.
